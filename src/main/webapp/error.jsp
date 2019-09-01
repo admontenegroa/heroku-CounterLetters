@@ -8,6 +8,6 @@
 </head>
 <body>
 <p>Error</p>
-<a href="/CounterLetters/">Regresar</a>
+<a href="/">Regresar</a>
 </body>
 </html>

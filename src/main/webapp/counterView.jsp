@@ -49,7 +49,7 @@
 
                         <script>
                             function cerrarSesion() {
-                                document.location = "/CounterLetters/";
+                                document.location = "/";
                                 document.cookie = ""
                             }
                         </script>
