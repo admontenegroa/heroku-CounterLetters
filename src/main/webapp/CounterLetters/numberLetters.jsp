@@ -24,7 +24,7 @@
 	<script>
 		function sesionCerrada() {
 			if (document.cookie == "")
-				document.location = "/CounterLetters/";
+				document.location = "/";
 		}
 		setInterval(sesionCerrada, 100);
 	</script>

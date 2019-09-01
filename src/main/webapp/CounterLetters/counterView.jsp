@@ -49,7 +49,7 @@
 
                         <script>
                             function cerrarSesion() {
-                                document.location = "/CounterLetters/";
+                                document.location = "/";
                                 document.cookie = ""
                             }
                         </script>
@@ -57,7 +57,7 @@
                         <script>
                             function sesionCerrada() {
                                 if (document.cookie == "")
-                                    document.location = "/CounterLetters/";
+                                    document.location = "/";
                             }
                             setInterval(sesionCerrada, 100);
                         </script>
