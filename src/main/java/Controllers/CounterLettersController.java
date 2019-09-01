@@ -34,6 +34,7 @@ import Models.Contador;
 				 //request.setAttribute("Letters", numberLetters);
 				 response.getWriter().print("<p> La variable vale " + numberLetters + "</p>");*/
 				 request.setAttribute("wordLength", contador.writeNumber(numberLetters));
+				 request.setAttribute("originalWord", contador.getCadena());
 				 request.getRequestDispatcher("numberLetters.jsp").forward(request, response); 
 				 response.sendRedirect("numberLetters.jsp");
 				 //response.getWriter().print("<p> La variable vale " + numberLetters + "</p>");

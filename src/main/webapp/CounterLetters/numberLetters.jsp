@@ -10,7 +10,7 @@
 	<%
 		if (request.getAttribute("wordLength") != null) {
 	%>
-	<h2><%="La palabra contiene " + request.getAttribute("wordLength") + " letras"%></h2>
+	<h2><%="La palabra " +request.getAttribute("originalWord") + "contiene " + request.getAttribute("wordLength") + " letras"%></h2>
 	<br>
 	<%
 		} else {
