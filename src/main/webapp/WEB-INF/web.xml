@@ -18,7 +18,7 @@
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>login</servlet-name>
-		<url-pattern>/CounterLetters/*</url-pattern>
+		<url-pattern>/CounterLetters/login</url-pattern>
 	</servlet-mapping>
 
 	<servlet>
@@ -28,7 +28,7 @@
 
 	<servlet-mapping>
 		<servlet-name>numberLetters</servlet-name>
-		<url-pattern>/CounterLetters/*</url-pattern>
+		<url-pattern>/CounterLetters/numberLetters</url-pattern>
 	</servlet-mapping>
     <session-config>
         <session-timeout>
