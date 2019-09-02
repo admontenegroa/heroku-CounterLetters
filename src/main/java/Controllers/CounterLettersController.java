@@ -15,12 +15,7 @@ import Models.Contador;
 		
 	    @Override
 	    protected void doGet(HttpServletRequest request, HttpServletResponse response)
-	            throws ServletException, IOException {
-	        //String action = request.getAttribute("action");
-	        //request.setAttribute("Letters", numberLetters);
-	       //Integer variable = (Integer)req.getAttribute("unEntero");
-
-	        
+	            throws ServletException, IOException {        
 	    }
 		
 		 @Override
@@ -29,21 +24,10 @@ import Models.Contador;
 			 Contador contador = new Contador(request.getParameter("word"));
 			 if(contador.isLengthOkey()) {
 				 numberLetters=contador.countLetter();
-				/* numberLetters=contador.countLetter();
-				 //response.sendRedirect("error.jsp");
-				 //request.setAttribute("Letters", numberLetters);
-				 response.getWriter().print("<p> La variable vale " + numberLetters + "</p>");*/
 				 request.setAttribute("wordLength", contador.writeNumber(numberLetters));
 				 request.setAttribute("originalWord", contador.getCadena());
 				 request.getRequestDispatcher("numberLetters.jsp").forward(request, response); 
 				 response.sendRedirect("numberLetters.jsp");
-				 //response.getWriter().print("<p> La variable vale " + numberLetters + "</p>");
-					/*PrintWriter out = resp.getWriter();
-					out.println("<html>");
-					out.println("<body>");
-					out.println("<t1>" + numberLetters + "</t1>");
-					out.println("</body>");
-					out.println("</html>");*/
 				 
 			 }else {
 				 response.sendRedirect("error.jsp");
