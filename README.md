@@ -58,3 +58,6 @@ Usuario
 Contador  
 ```
  ### 5. Casos de Prueba
+ ### 6. Revisión estándar WCAG
+ ![Compatibility](https://raw.githubusercontent.com/admontenegroa/heroku-CounterLetters/master/Compatibility.png)
+ ![WCAG](https://raw.githubusercontent.com/admontenegroa/heroku-CounterLetters/master/WCAG.png)
