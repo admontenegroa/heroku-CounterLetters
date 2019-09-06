@@ -5,21 +5,24 @@
 <head>
 <meta charset="ISO-8859-1">
 <title>Insert title here</title>
-<style>
-body {
-	background-color: black;
-}
+    <style type="text/css">
+        body {
+            background-color: black;
+            color: #00bdde
+        }
 
-h1, label, p, a, h2 {
-	color: #00bdde
-}
+        h1,
+        label,
+        p {
+            color: #00bdde
+        }
 
-.container-fluid {
-	position: absolute;
-	top: 250px;
-	left: 350px;
-}
-</style>
+        .container-fluid {
+            position: relative;
+            top: 250px;
+            left: 350px;
+        }
+    </style>
 </head>
 <body>
 	<%
@@ -37,7 +40,7 @@ h1, label, p, a, h2 {
 	%>
 	<a href="/CounterLetters/counterView.jsp">Desea conocer el número
 		de letras de otra palabra?</a>
-	<script>
+	<script type="text/javascript">
 		function sesionCerrada() {
 			if (document.cookie == "")
 				document.location = "/";

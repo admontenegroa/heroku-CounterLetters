@@ -9,21 +9,24 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 <title>Inicio de Sesion</title>
-<style>
-body {
-	background-color: black;
-}
+    <style type="text/css">
+        body {
+            background-color: black;
+            color: #00bdde
+        }
 
-h1, label, p {
-	color: #00bdde
-}
+        h1,
+        label,
+        p {
+            color: #00bdde
+        }
 
-.container-fluid {
-	position: absolute;
-	top: 250px;
-	left: 350px;
-}
-</style>
+        .container-fluid {
+            position: relative;
+            top: 250px;
+            left: 350px;
+        }
+    </style>
 
 </head>
 
@@ -50,14 +53,14 @@ h1, label, p {
 					<label>¿Desea cerrar sesión?</label>
 					<button onclick="cerrarSesion()">Cerrar Sesión</button>
 
-					<script>
+					<script type="text/javascript">
 						function cerrarSesion() {
 							document.location = "/";
 							document.cookie = ""
 						}
 					</script>
 
-					<script>
+					<script type="text/javascript">
 						function sesionCerrada() {
 							if (document.cookie == "")
 								document.location = "/";
