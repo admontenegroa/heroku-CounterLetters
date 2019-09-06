@@ -20,7 +20,7 @@ MCICLeones
 
  ### 2.	Requerimientos del Sistema 
 
-### 2.1.	Requerimientos Funcionales
+### 2.1.Requerimientos Funcionales
 
 *	Solo pueden usarlo las personas que conozcan un clave que debe ser ingresada en un campo.
 *	Recibir una palabra en español sin espacios ni caracteres especiales de máximo 20 caracteres.
@@ -29,12 +29,15 @@ MCICLeones
 *	Devolver en pantalla el número de caracteres palabra escrito en letras en español.
 
 
-### 2.2.	Requerimientos no Funcionales
+### 2.2. Requerimientos no Funcionales
 
 *	La interfaz gráfica debe cumplir los estándares WCAG A
 
+ ### 3.	Flujo del proceso
 
-### 3.	Arquitectura del Sistema
+![FlujoProceso](https://raw.githubusercontent.com/admontenegroa/heroku-CounterLetters/master/FlujoProceso.png)
+
+ ### 4.	Arquitectura del Sistema
 
 ![Diagrama de Clases](https://raw.githubusercontent.com/admontenegroa/heroku-CounterLetters/master/DiagramaClases.png)
 
@@ -54,3 +57,4 @@ Modelo: Contiene la logica del programa y está compuesto por las clases:
 Usuario 
 Contador  
 ```
+ ### 5. Casos de Prueba
