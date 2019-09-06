@@ -23,7 +23,7 @@
             left: 350px;
         }
     </style>
-    <title>Inicio de SesiÃ³n</title>
+    <title>Inicio de Sesión</title>
 
 </head>
 
@@ -37,16 +37,16 @@
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
                     <div class="tm-wrapper-center">
                         <h1 class="tm-section-intro-title">Bienvenido</h1>
-                        <h1>Formulario de AutenticaciÃ³n</h1>
+                        <h1>Formulario de Autenticación</h1>
 
 
 
 
 
                         <form action="/CounterLetters/login" method="post">
-                            <label>Si desea conocer el
-                                nÃºmero de letras que contiene una palabra. Primero debe iniciar
-                                sesiÃ³n</label>
+                            <label for="usuario">Si desea conocer el
+                                número de letras que contiene una palabra. Primero debe iniciar
+                                sesión</label>
                             <input type="password" id="usuario" name="usuario" class="form-control" />
                             <input type="submit" name="submit" value="Iniciar Sesion" onclick="sesionIniciada()" />
                             <script type="text/javascript">
@@ -64,8 +64,8 @@
 
         <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                <p class="text-xs-center tm-copyright-text">AndrÃ©s Montenegro,
-                    Luis Cruz, Omar Castro, Erika Daza, JosÃ© Becerra (2019-3)</p>
+                <p class="text-xs-center tm-copyright-text">Andrés Montenegro,
+                    Luis Cruz, Omar Castro, Erika Daza, José Becerra (2019-3)</p>
             </div>
         </div>
 
