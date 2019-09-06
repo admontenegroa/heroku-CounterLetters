@@ -1,4 +1,4 @@
-## Contador de Carácteres
+## Contador de Carácteres de una Palabra
 
 ### 1.	Introducción 
 
