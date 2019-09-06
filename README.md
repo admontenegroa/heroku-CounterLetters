@@ -2,8 +2,18 @@
 
 ### 1.	Introducción 
 
-Con el objetivo de contar las letras que contiene una palabra en español máxima de 20 caracteres, se diseña un servicio web en lenguaje Java.
+Con el objetivo de contar los carácteres que contiene una palabra en el idioma español con una longitud máxima de 20 caracteres. Se diseñó un servicio web en lenguaje Java bajo la arquitectura Modelo Vista Controlador.
 
+El servicio web se encuentra alojado en la siguiente URL:
+```
+https://heroku-counterletters.herokuapp.com/
+```
+
+### 1.1	Herramientas utilizadas
+
+*	Eclipse 4.12.0
+*	Apache Tomcat v9.0
+*	Java JDK 1.8.0_221
 
  ### 2.	Requerimientos del Sistema 
 
@@ -23,6 +33,8 @@ Con el objetivo de contar las letras que contiene una palabra en español máxim
 
 ### 3.	Arquitectura del Sistema
 
+![Diagrama de Clases](https://raw.githubusercontent.com/admontenegroa/heroku-CounterLetters/master/DiagramaClases.png)
+
 Controlador: Gestiona los eventos que provoca el usuario al interactuar con la interfaz gráfica, en este proyecto está compuesto por las clases:
 ```
 CounterLettersController
@@ -37,5 +49,5 @@ numberLetters.jsp
 Modelo: Contiene la logica del programa y está compuesto por las clases: 
 ```
 Usuario 
-Contador.  
+Contador  
 ```
