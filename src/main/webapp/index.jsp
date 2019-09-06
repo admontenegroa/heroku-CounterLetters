@@ -9,6 +9,7 @@
     <style type="text/css">
         body {
             background-color: black;
+            color: #00bdde
         }
 
         h1,
