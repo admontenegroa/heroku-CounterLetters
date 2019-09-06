@@ -10,7 +10,7 @@ body {
 	background-color: black;
 }
 
-h1, label, p, a {
+h1, label, p, a, h2 {
 	color: #00bdde
 }
 
