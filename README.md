@@ -8,7 +8,10 @@ El servicio web se encuentra alojado en la siguiente URL:
 ```
 https://heroku-counterletters.herokuapp.com/
 ```
-
+La contraseña para iniciar sesión es la siguiente:
+```
+MCICLeones
+```
 ### 1.1	Herramientas utilizadas
 
 *	Eclipse 4.12.0
