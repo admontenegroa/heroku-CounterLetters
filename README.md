@@ -1,6 +1,6 @@
 ## Contador de Carácteres de una Palabra
 
-### 1.	Introducción 
+ ### 1.	Introducción 
 
 Con el objetivo de contar los carácteres que contiene una palabra en el idioma español con una longitud máxima de 20 caracteres. Se diseñó un servicio web en lenguaje Java bajo la arquitectura Modelo Vista Controlador.
 
@@ -20,7 +20,7 @@ MCICLeones
 
  ### 2.	Requerimientos del Sistema 
 
-### 2.1.Requerimientos Funcionales
+### 2.1. Requerimientos Funcionales
 
 *	Solo pueden usarlo las personas que conozcan un clave que debe ser ingresada en un campo.
 *	Recibir una palabra en español sin espacios ni caracteres especiales de máximo 20 caracteres.

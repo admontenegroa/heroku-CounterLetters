@@ -5,12 +5,28 @@
 <head>
 <meta charset="ISO-8859-1">
 <title>Insert title here</title>
+<style>
+body {
+	background-color: black;
+}
+
+h1, label, p, a {
+	color: #00bdde
+}
+
+.container-fluid {
+	position: absolute;
+	top: 250px;
+	left: 350px;
+}
+</style>
 </head>
 <body>
 	<%
 		if (request.getAttribute("wordLength") != null) {
 	%>
-	<h2><%="La palabra " +request.getAttribute("originalWord") + " contiene " + request.getAttribute("wordLength") + " letras"%></h2>
+	<h2><%="La palabra " + request.getAttribute("originalWord") + " contiene "
+						+ request.getAttribute("wordLength") + " letras"%></h2>
 	<br>
 	<%
 		} else {
