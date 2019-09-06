@@ -1,24 +1,41 @@
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
-# Create a Java Web Application using Embedded Tomcat
+## Contador de Caracteres
 
-This tutorial will show you how to create a simple Java web application using embedded Tomcat.
+### 1.	Introducción 
 
-## Prerequisites
+Con el objetivo de contar las letras que contiene una palabra en español máxima de 20 caracteres, se diseña un servicio web en lenguaje Java.
 
-* Basic Java knowledge, including an installed version of the JVM and Maven.
-* Basic Git knowledge, including an installed version of Git.
-* A Java web application. If you don't have one follow the first step to create an example. Otherwise skip that step.
 
-## Skip The Application Creation
+ ### 2.	Requerimientos del Sistema 
 
-If you want to skip the creation steps you can clone the finished sample and then skip to the 'Deploy Your Application to Heroku' section:
+### 2.1.	Requerimientos Funcionales
 
+*	Solo pueden usarlo las personas que conozcan un clave que debe ser ingresada en un campo.
+*	Recibir una palabra en español sin espacios ni caracteres especiales de máximo 20 caracteres.
+*	Se debe restringir que el usuario ingrese una palabra con más de 20 caracteres.
+*	La palabra se debe ingresar por teclado en un campo dispuesto para ello.
+*	Devolver en pantalla el número de caracteres palabra escrito en letras en español.
+
+
+### 2.2.	Requerimientos no Funcionales
+
+*	La interfaz gráfica debe cumplir los estándares WCAG A
+
+
+### 3.	Arquitectura del Sistema
+
+Controlador: Gestiona los eventos que provoca el usuario al interactuar con la interfaz gráfica, en este proyecto está compuesto por las clases:
 ```
-$ git clone git@github.com:heroku/devcenter-embedded-tomcat.git
+CounterLettersController
+LoginController
 ```
-
-## Follow the Guide
-
-If you would like to create the application yourself, then follow the Dev Center guide on how to [Create a Java Web Application using Embedded Tomcat](https://devcenter.heroku.com/articles/create-a-java-web-application-using-embedded-tomcat).
-
-
+Vista: Es cada una de las interfaces gráficas con las que interactúa el usuario y en este proyecto son:
+```
+Index.jsp
+CounterView.jsp
+numberLetters.jsp
+```
+Modelo: Contiene la logica del programa y está compuesto por las clases: 
+```
+Usuario 
+Contador.  
+```
