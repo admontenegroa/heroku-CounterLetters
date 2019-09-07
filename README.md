@@ -34,6 +34,9 @@ MCICLeones
 *	La interfaz gráfica debe cumplir los estándares WCAG A
 
  ### 3.	Flujo del proceso
+ Para el proceso se diseñó un diagrama de flujo, el primer paso en la ejecución es ingresar la contraseña requerida, una vez la contraseña sea correcta pide que se ingrese una palabra de máximo 20 caracteres los reconocidos por el idioma español y caracteres especiales, la casilla donde se va a ingresar la palabra solo dejara ingresar hasta el 20 carácter si se ingresa más este no los reconocerá. Después de ingresada la palabra el desarrollo realiza el conteo de cada carácter y arroja el resultado en una palabra con el número total de los caracteres ingresados.
+
+El desarrollo pregunta al usuario si desea ingresar una palabra nueva o si desea terminar; si escoge la opción de ingresar una nueva palabra se ejecutará otra vez el mismo proceso cuantas veces el usuario lo desee y si se escoge la opción de finalizar el desarrollo finaliza de manera correcta. 
 
 ![FlujoProceso](https://raw.githubusercontent.com/admontenegroa/heroku-CounterLetters/master/FlujoProceso.png)
 
