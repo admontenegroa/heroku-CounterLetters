@@ -58,6 +58,7 @@ Usuario
 Contador  
 ```
  ### 5. Casos de Prueba
+ Para evaluar los requerimientos funcionales del servicio web se consideraron los siguientes escenarios de prueba:
  ### 6. Revisión estándar WCAG
  Para validar el cumplimiento del estándar Pautas de accesibilidad al contenido web (WCAG) se acudió a la herramienta online SortSite de PowerMapper (https://try.powermapper.com/Demo/SortSite).
 
