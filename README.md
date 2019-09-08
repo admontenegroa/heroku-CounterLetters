@@ -61,7 +61,9 @@ Usuario
 Contador  
 ```
  ### 5. Casos de Prueba
- Para evaluar los requerimientos funcionales del servicio web se consideraron los siguientes escenarios de prueba:
+ Para evaluar los requerimientos funcionales del servicio web se consideraron los siguientes escenarios de prueba unitaria:
+ ![Compatibility](https://raw.githubusercontent.com/admontenegroa/heroku-CounterLetters/master/Escenario_PruebaContraseña.png)
+ ![Compatibility](https://raw.githubusercontent.com/admontenegroa/heroku-CounterLetters/master/Escenario_LongitudPalabraTest.png)
  ### 6. Revisión estándar WCAG
  Para validar el cumplimiento del estándar Pautas de accesibilidad al contenido web (WCAG) se acudió a la herramienta online SortSite de PowerMapper (https://try.powermapper.com/Demo/SortSite).
 
@@ -69,3 +71,4 @@ Contador
  ![Compatibility](https://raw.githubusercontent.com/admontenegroa/heroku-CounterLetters/master/Compatibility.png)
  Por otro lado, al realizar la prueba de accesibilidad se encontró que el servicio web cumplía con los estándares WCAG 2.0 nivel A, AA y AAA.
  ![WCAG](https://raw.githubusercontent.com/admontenegroa/heroku-CounterLetters/master/WCAG.png)
+ 
